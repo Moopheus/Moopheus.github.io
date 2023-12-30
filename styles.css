@@ -1,7 +1,10 @@
 .title {
-  text-align: center;
   background-color: black;
 }
 .titletext {
   color: white;
+  text-align: left;
+}
+.menu {
+  text-align: right;
 }
