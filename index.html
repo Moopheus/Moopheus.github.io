@@ -11,7 +11,7 @@
 </script>
 </head>
 <body>
-  <header class="title">
+  <header id="header" class="title">
     <div class="header">
       <a href="https://moopheus.github.io/" class="logo">Rescisco</a>
       <div class="header-right">
@@ -25,10 +25,23 @@
   </header>
   <main>
     <div>
-      <h1>Ever want to improve?</h1>
+      <h1>This is temp.</h1>
+      <p>Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! Only one way to enable scrolling - text! </p>
     </div>
   </main>
   <footer>
-    <p>All rights reserved</p>
+    <p>The Footer?</p>
   </footer>
+  <script>
+    window.onscroll = function() {headerSticky()};
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+    function headerSticky() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+  }
+}
+</script>
 </body>
