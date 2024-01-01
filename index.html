@@ -32,16 +32,5 @@
   <footer>
     <p>The Footer?</p>
   </footer>
-  <script>
-    window.onscroll = function() {headerSticky()};
-    var header = document.getElementById("header");
-    var sticky = header.offsetTop;
-    function headerSticky() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-  }
-}
-</script>
+  <script src="header.js"></script>
 </body>
