@@ -10,6 +10,7 @@
   padding: 0 40px;
 }
 .mctitle {
-  width: 80%;
+  max-width: 80%;
+  height: auto;
   align: center;
 }
